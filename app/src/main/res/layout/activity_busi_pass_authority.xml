@@ -27,7 +27,7 @@
             android:textSize="@dimen/px_32"
             android:textColor="@color/black"/>
         <TextView
-            android:id="@+id/tv_business_opendoor"
+            android:id="@+id/tv_busi_pass_opendoor"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:paddingLeft="@dimen/px_90"
@@ -45,32 +45,12 @@
         android:textSize="@dimen/px_24"
         android:textColor="@color/dark_gray"/>
 
-    <LinearLayout
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rv_busi_pass_pending_authority"
         android:layout_width="match_parent"
-        android:layout_height="@dimen/px_88"
-        android:background="@color/white"
-        android:gravity="center_vertical"
-        android:orientation="horizontal">
+        android:layout_height="wrap_content">
 
-        <TextView
-            android:id="@+id/tv_business_pendingtime"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:paddingLeft="@dimen/px_48"
-            android:text="2017-4-30 15:36"
-            android:textColor="@color/black"
-            android:textSize="@dimen/px_32" />
-
-        <TextView
-            android:id="@+id/tv_business_pendingdoor"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginRight="@dimen/px_48"
-            android:gravity="end"
-            android:text="104"
-            android:textColor="@color/black"
-            android:textSize="@dimen/px_32" />
-    </LinearLayout>
+    </android.support.v7.widget.RecyclerView>
 
     <TextView
         android:layout_width="match_parent"

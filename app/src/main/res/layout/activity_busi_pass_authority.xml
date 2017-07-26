@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background">
+    <include layout="@layout/common_toolbar"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/px_64"
+        android:background="@color/background"
+        android:gravity="center_vertical"
+        android:paddingLeft="@dimen/px_48"
+        android:text="@string/business_present_authority"
+        android:textSize="@dimen/px_24"
+        android:textColor="@color/dark_gray"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/px_88"
+        android:background="@color/white"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/px_48"
+            android:text="@string/business_current_authority"
+            android:textSize="@dimen/px_32"
+            android:textColor="@color/black"/>
+        <TextView
+            android:id="@+id/tv_business_opendoor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/px_90"
+            android:text="101、102、103可开启"
+            android:textSize="@dimen/px_32"
+            android:textColor="@color/black"/>
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/px_64"
+        android:background="@color/background"
+        android:gravity="center_vertical"
+        android:paddingLeft="@dimen/px_48"
+        android:text="@string/business_pending_authority"
+        android:textSize="@dimen/px_24"
+        android:textColor="@color/dark_gray"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/px_88"
+        android:background="@color/white"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tv_business_pendingtime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/px_48"
+            android:text="2017-4-30 15:36"
+            android:textColor="@color/black"
+            android:textSize="@dimen/px_32" />
+
+        <TextView
+            android:id="@+id/tv_business_pendingdoor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/px_48"
+            android:gravity="end"
+            android:text="104"
+            android:textColor="@color/black"
+            android:textSize="@dimen/px_32" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/px_64"
+        android:background="@color/background"
+        android:gravity="center_vertical"
+        android:paddingLeft="@dimen/px_48"
+        android:text="@string/business_apply_authority"
+        android:textSize="@dimen/px_24"
+        android:textColor="@color/dark_gray"/>
+    <LinearLayout
+        android:id="@+id/llayout_busi_pass_chooseroom"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/px_88"
+        android:background="@color/white"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingLeft="@dimen/px_48"
+            android:text="@string/business_select_room"
+            android:textSize="@dimen/px_32"
+            android:textColor="@color/black"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/px_24"
+            android:src="@mipmap/ic_common_next" />
+    </LinearLayout>
+
+</LinearLayout>

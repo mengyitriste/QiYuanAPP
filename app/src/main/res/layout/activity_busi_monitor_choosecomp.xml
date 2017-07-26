@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/background">
+    <include layout="@layout/common_toolbar"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/px_88"
+        android:layout_marginTop="@dimen/px_24"
+        android:background="@color/white"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+        <EditText
+            android:id="@+id/et_busi_monitor_comps"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@null"
+            android:paddingLeft="@dimen/px_48"
+            />
+        <ImageButton
+            android:id="@+id/btn_busi_monitor_searchcomp"
+            android:layout_width="@dimen/px_44"
+            android:layout_height="@dimen/px_44"
+            android:layout_marginRight="@dimen/px_24"
+            android:src="@mipmap/ic_common_search"
+            android:background="@color/white"
+            />
+
+    </LinearLayout>
+    <android.support.v7.widget.RecyclerView
+        android:layout_marginTop="1dp"
+        android:id="@+id/rv_busi_monitor_comps"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+</LinearLayout>

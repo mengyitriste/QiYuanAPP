@@ -1,0 +1,149 @@
+<resources>
+    <string name="app_name">QiYuanAPP</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="navigation_message">消息</string>
+    <string name="navigation_business">业务中心</string>
+    <string name="navigation_usercenter">个人中心</string>
+    <string name="navigation_unlogin">未登录</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="tab_message_latest">最新</string>
+    <string name="tab_message_news">新闻</string>
+    <string name="tab_message_inform">公告</string>
+    <string name="tab_message_affair">事务</string>
+    <string name="message_title">您有新消息啦</string>
+    <string name="message_text">恭喜您，您中了五百万，请带上你的身份证来领奖。</string>
+    <string name="message_role_admin">管理员</string>
+    <string name="message_time">08:10</string>
+
+    <string name="choos_region">选择园区</string>
+    <string name="login_region">绵阳1区</string>
+    <string name="login_hint">登录后，你可以使用相关用户功能，包括\n查看个人权限机监控权限等等</string>
+    <string name="register">注册</string>
+    <string name="confirm">确定</string>
+    <string name="login">登录</string>
+    <string name="register_phonenum_hint1">输入手机号，快速注册</string>
+    <string name="register_region">国家/地区</string>
+    <string name="register_china">中国</string>
+    <string name="register_input_phonenum">请输入手机号</string>
+    <string name="nextstep">下一步</string>
+    <string name="register_search">搜索</string>
+    <string name="register_verify_hint">我们已经发送了验证码到你的手机</string>
+    <string name="register_captcha">验证码</string>
+    <string name="register_input_captcha">请输入6位验证码</string>
+    <string name="register_receive_message">接收短信大约需要36S</string>
+    <string name="register_password_hint">请设置密码</string>
+    <string name="register_password_pass">密码</string>
+    <string name="register_password_input">填写密码</string>
+    <string name="register_password_confirm">确认密码</string>
+    <string name="register_password_input2">再次填写确认密码</string>
+    <string name="register_password_button">确定</string>
+    <string name="register_down">提交成功</string>
+    <string name="register_down_hint1">预计三天内审核完成</string>
+    <string name="register_down_hint2">审核通过后会发送短信至</string>
+    <string name="register_down_hint3">通知您</string>
+    <string name="register_down_hint4">请您耐心等待</string>
+    <string name="register_down_btn">完成</string>
+    <string name="country">国家/地区</string>
+    <string name="china">中国</string>
+    <string name="jia86">+86</string>
+    <string name="search">搜索</string>
+    <string name="input_phonenum">请输入手机号</string>
+    <string name="captcha">验证码</string>
+    <string name="input_captcha">请输入6位验证码</string>
+    <string name="click_resend">59s重发</string>
+    <string name="submit">提交</string>
+    <string name="password_hint">请设置密码</string>
+    <string name="password">密码</string>
+    <string name="password_input">填写密码</string>
+    <string name="password_confirm">确认密码</string>
+    <string name="password_confirm_input">再次填写确认密码</string>
+
+    <string name="business_joinpark">企业入驻</string>
+    <string name="business_joincompany">加入企业</string>
+    <string name="business_card">一卡通</string>
+    <string name="business_pass">出行权限</string>
+    <string name="business_parkspace">车行服务</string>
+    <string name="business_monitor">远程监控</string>
+    <string name="business_text_joinpark">办理企业入驻申请，需要搞快，晚了就入驻不了了</string>
+    <string name="business_text_joincomp">加入企业马上奖励一百五，心动不如行动</string>
+    <string name="business_choosepark">选择园区</string>
+    <string name="business_choosepark_text">请选择所在园区</string>
+    <string name="business_companyname">公司名称</string>
+    <string name="business_companyname_input">请输入公司名称</string>
+    <string name="business_companykind">公司性质</string>
+    <string name="business_companykind_input">请选择公司性质</string>
+    <string name="business_legalperson">法人姓名</string>
+    <string name="business_legalperson_input">请输入法人姓名</string>
+    <string name="business_IDCard">身份证</string>
+    <string name="business_IDCard_input">请输入法人身份证号</string>
+    <string name="business_telnum">联系电话</string>
+    <string name="business_telnum_input">请输入联系电话</string>
+    <string name="business_mail">邮箱</string>
+    <string name="business_mail_input">请输入邮箱地址</string>
+    <string name="business_license">营业执照</string>
+    <string name="business_upload">点击上传</string>
+
+    <string name="down_submit">提交成功</string>
+    <string name="down_pay">缴费成功</string>
+    <string name="total_pay">总共缴费</string>
+    <string name="yuan">元</string>
+
+    <string name="login_forgetpass">忘记密码</string>
+
+    <string name="userinfo_username">姓名</string>
+    <string name="userinfo_company">所属公司</string>
+    <string name="userinfo_card">一卡通</string>
+    <string name="userinfo_parkspace">车位使用查看</string>
+    <string name="userinfo_pass">出行权限查看</string>
+    <string name="userinfo_monitor">监控权限查看</string>
+    <string name="userinfo_applythings">申请事物管理</string>
+    <string name="userinfo_sets">设置</string>
+
+
+    <string name="title_activity_country_selec">CountrySelecActivity</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_region">RegionActivity</string>
+
+    <!--ADD BY He-->
+    <string name="business_toolbar_joincompany">申请加入企业</string>
+    <string name="business_toolbar_selectpark">选择园区</string>
+    <string name="business_toolbar_selectcompany">选择企业</string>
+    <string name="business_toolbar_passauthority">出行权限</string>
+    <string name="business_toolbar_choosedoor">选择门</string>
+    <string name="business_toolbar_visitorapply">访客申请</string>
+    <string name="business_toolbar_monitor">远程监控</string>
+    <string name="business_qiyuanpark">启园智慧园区</string>
+    <string name="business_choose_company">选择公司</string>
+    <string name="business_uxd">UXD公司</string>
+    <string name="business_compIDcard">补全身份证</string>
+    <string name="business_input_IDcard">请输入真实身份证号</string>
+    <string name="business_submit">提交</string>
+    <string name="business_search">搜索</string>
+    <string name="business_present_authority">目前权限</string>
+    <string name="business_current_authority">当前权限</string>
+    <string name="business_pending_authority">待审核权限</string>
+    <string name="business_apply_authority">申请新的出行权限</string>
+    <string name="business_select_room">选择房间号</string>
+    <string name="business_submitted_info">已提交待审核访客信息</string>
+    <string name="business_visitor_apply_info">访客申请信息</string>
+    <string name="business_visitor_name">访客姓名</string>
+    <string name="business_visitor_num">来访人数</string>
+    <string name="business_visit_time">来访时间</string>
+    <string name="business_platenum">车牌号</string>
+    <string name="business_required">(必填)</string>
+    <string name="business_plate_required">(驾车进园必填)</string>
+    <string name="business_applicant_info">申请人信息</string>
+    <string name="business_name">姓名</string>
+    <string name="business_sex">性别</string>
+    <string name="business_tel">联系方式</string>
+    <string name="business_company">公司</string>
+    <string name="business_choose_camera">摄像头选择</string>
+    <string name="business_choose_enterprise">企业选择</string>
+    <string name="business_choose_room">房间选择</string>
+
+</resources>

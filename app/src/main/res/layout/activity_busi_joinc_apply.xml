@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background">
+
+    <include layout="@layout/common_toolbar" />
+
+    <LinearLayout
+        android:id="@+id/llayout_busi_joinc_choosepark"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/px_88"
+        android:layout_marginTop="@dimen/px_24"
+        android:background="@color/white"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/px_48"
+            android:text="@string/business_choosepark"
+            android:textSize="@dimen/px_32"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:id="@+id/tv_busi_joinc_parks"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/px_338"
+            android:layout_weight="1"
+            android:text="@string/business_qiyuanpark"
+            android:textSize="@dimen/px_24"
+            android:textColor="@color/dark_gray"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/px_24"
+            android:src="@mipmap/ic_common_next" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llayout_busi_joinc_choosecomp"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/px_88"
+        android:layout_marginTop="1dp"
+        android:background="@color/white"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/px_48"
+            android:text="@string/business_choose_company"
+            android:textSize="@dimen/px_32"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:id="@+id/tv_busi_joinc_companies"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/px_386"
+            android:layout_weight="1"
+            android:text="@string/business_uxd"
+            android:textSize="@dimen/px_24"
+            android:textColor="@color/dark_gray"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/px_24"
+            android:src="@mipmap/ic_common_next" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="@dimen/px_48"
+        android:text="@string/business_compIDcard"
+        android:textColor="@color/dark_gray"
+        android:textSize="@dimen/px_24" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/px_88"
+        android:background="@color/white"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/px_48"
+            android:text="@string/business_IDCard"
+            android:textSize="@dimen/px_32"
+            android:textColor="@color/black"/>
+        <EditText
+            android:id="@+id/et_busi_joinc_IDcard"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@null"
+            android:text="@string/business_input_IDcard"
+            android:textSize="@dimen/px_30"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:textColor="@color/dark_gray"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_busi_joinc_applynext"
+        android:layout_width="@dimen/px_702"
+        android:layout_height="@dimen/px_88"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/px_80"
+        android:background="@drawable/button_bg"
+        android:text="@string/business_submit"
+        android:textColor="@color/white"
+        android:textSize="@dimen/px_28"/>
+
+
+
+</LinearLayout>

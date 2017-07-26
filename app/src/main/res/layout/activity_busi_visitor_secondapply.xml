@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/background">
+    <include layout="@layout/common_toolbar"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/px_64"
+        android:background="@color/background"
+        android:textColor="@color/dark_gray"
+        android:textSize="@dimen/px_24"
+        android:gravity="center_vertical"
+        android:paddingLeft="@dimen/px_48"
+        android:text="@string/business_submitted_info"/>
+    
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/px_88"
+    android:background="@color/white"
+    android:gravity="center_vertical"
+    android:orientation="horizontal">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:paddingLeft="@dimen/px_48"
+        android:textColor="@color/black"
+        android:textSize="@dimen/px_32"
+        android:text="@string/business_visitor_name"/>
+    <TextView
+        android:id="@+id/tv_busi_visitor_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="end"
+        android:layout_marginRight="@dimen/px_30"
+        android:textColor="@color/dark_gray"
+        android:textSize="@dimen/px_30"
+        android:text="张三"/>
+
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/px_88"
+        android:background="@color/white"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:paddingLeft="@dimen/px_48"
+            android:textColor="@color/black"
+            android:textSize="@dimen/px_32"
+            android:text="@string/business_telnum"/>
+        <TextView
+            android:id="@+id/tv_busi_visitor_tel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="end"
+            android:layout_marginRight="@dimen/px_30"
+            android:textColor="@color/dark_gray"
+            android:textSize="@dimen/px_30"
+            android:text="13214567894"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/px_88"
+        android:background="@color/white"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:paddingLeft="@dimen/px_48"
+            android:text="@string/business_visitor_num"
+            android:textColor="@color/black"
+            android:textSize="@dimen/px_32" />
+
+        <TextView
+            android:id="@+id/tv_busi_visitor_number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="end"
+            android:layout_marginRight="@dimen/px_30"
+            android:textColor="@color/dark_gray"
+            android:textSize="@dimen/px_30"
+            android:text="4人"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/px_88"
+        android:background="@color/white"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+
+            android:paddingLeft="@dimen/px_48"
+            android:textColor="@color/black"
+            android:textSize="@dimen/px_32"
+            android:text="@string/business_visit_time"/>
+        <TextView
+            android:id="@+id/tv_busi_visitor_time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="end"
+            android:layout_marginRight="@dimen/px_30"
+            android:textColor="@color/dark_gray"
+            android:textSize="@dimen/px_30"
+            android:text="2017-4-25"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/px_88"
+        android:background="@color/white"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:paddingLeft="@dimen/px_48"
+            android:textColor="@color/black"
+            android:textSize="@dimen/px_32"
+            android:text="@string/business_platenum"/>
+        <TextView
+            android:id="@+id/tv_busi_visitor_plate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="end"
+            android:layout_marginRight="@dimen/px_30"
+            android:textColor="@color/dark_gray"
+            android:textSize="@dimen/px_30"
+            android:text="川B 67890"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/px_64"
+        android:background="@color/background"
+        android:textColor="@color/dark_gray"
+        android:textSize="@dimen/px_24"
+        android:gravity="center_vertical"
+        android:paddingLeft="@dimen/px_48"
+        android:text="@string/business_visitor_apply_info"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/px_88"
+        android:background="@color/white"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/px_48"
+            android:text="@string/business_visitor_name"
+            android:textColor="@color/black"
+            android:textSize="@dimen/px_32" />
+
+        <EditText
+            android:id="@+id/et_busi_visitor_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:paddingLeft="@dimen/px_22"
+            android:text="@string/business_required"
+            android:textColor="@color/light_black"
+            android:textSize="@dimen/px_30" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/px_88"
+        android:background="@color/white"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:layout_marginTop="1dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/px_48"
+            android:text="@string/business_telnum"
+            android:textColor="@color/black"
+            android:textSize="@dimen/px_32" />
+
+        <EditText
+            android:id="@+id/et_busi_visitor_tel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:paddingLeft="@dimen/px_22"
+            android:text="@string/business_required"
+            android:textColor="@color/light_black"
+            android:textSize="@dimen/px_30" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/px_88"
+        android:background="@color/white"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:layout_marginTop="1dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/px_48"
+            android:text="@string/business_visitor_num"
+            android:textColor="@color/black"
+            android:textSize="@dimen/px_32" />
+
+        <EditText
+            android:id="@+id/et_busi_visitor_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:paddingLeft="@dimen/px_22"
+            android:text="@string/business_required"
+            android:textColor="@color/light_black"
+            android:textSize="@dimen/px_30" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/px_88"
+        android:background="@color/white"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:layout_marginTop="1dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/px_48"
+            android:text="@string/business_visit_time"
+            android:textColor="@color/black"
+            android:textSize="@dimen/px_32" />
+
+        <EditText
+            android:id="@+id/et_busi_visitor_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:paddingLeft="@dimen/px_22"
+            android:text="@string/business_required"
+            android:textColor="@color/light_black"
+            android:textSize="@dimen/px_30" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/px_88"
+        android:background="@color/white"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:layout_marginTop="1dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/px_48"
+            android:text="@string/business_platenum"
+            android:textColor="@color/black"
+            android:textSize="@dimen/px_32" />
+
+        <EditText
+            android:id="@+id/et_busi_visitor_plate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:paddingLeft="@dimen/px_22"
+            android:text="@string/business_plate_required"
+            android:textColor="@color/light_black"
+            android:textSize="@dimen/px_30" />
+    </LinearLayout>
+    <Button
+        android:id="@+id/btn_busi_vistor_applynext"
+        android:layout_width="@dimen/px_702"
+        android:layout_height="@dimen/px_88"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/px_80"
+        android:background="@drawable/button_bg"
+        android:text="@string/business_submit"
+        android:textColor="@color/white"
+        android:textSize="@dimen/px_28"/>
+
+</LinearLayout>

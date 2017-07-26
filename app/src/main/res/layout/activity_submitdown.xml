@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/common_toolbar"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/px_176">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="130dp"
+            android:src="@mipmap/ic_common_down"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="4dp"
+            android:textColor="@color/black"
+            android:textSize="@dimen/px_36"
+            android:text="@string/register_down"/>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/px_88"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_vertical"
+        android:textSize="@dimen/px_32"
+        android:textColor="@color/light_black"
+        android:text="@string/register_down_hint1"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/px_88"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="22dp"
+            android:textSize="@dimen/px_32"
+            android:textColor="@color/light_black"
+            android:text="@string/register_down_hint2"
+            />
+        <TextView
+            android:id="@+id/tv_submit_down_tel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:textColor="@color/blue"
+            android:textSize="@dimen/px_32"
+            android:text="13000000000"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:textSize="@dimen/px_32"
+            android:textColor="@color/light_black"
+            android:text="@string/register_down_hint3"
+            />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/px_80"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_vertical"
+        android:textSize="@dimen/px_32"
+        android:textColor="@color/light_black"
+        android:text="@string/register_down_hint4"/>
+
+    <Button
+        android:id="@+id/btn_submit_down"
+        android:layout_width="@dimen/px_702"
+        android:layout_height="@dimen/px_88"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/px_80"
+        android:background="@drawable/button_bg"
+        android:text="@string/register_down_btn"
+        android:textColor="@color/white"
+        />
+
+</LinearLayout>

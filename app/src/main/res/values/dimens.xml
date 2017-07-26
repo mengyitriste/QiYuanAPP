@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--dp=1.44px/3-->
+<resources>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="appbar_padding_top">8dp</dimen>
+    <integer name="anim_duration">200</integer>
+
+    <dimen name="toolbar_height">42.24dp</dimen>
+    <dimen name="toolbar_backicon_height">21.12dp</dimen>
+    <dimen name="toolbar_backicon_width">21.12dp</dimen>
+    <dimen name="navigationbar_height">46.08dp</dimen>
+    <dimen name="tab_icon_height">34.56dp</dimen>
+    <dimen name="tab_icon_width">34.56dp</dimen>
+    <dimen name="message_icon_left">49.44dp</dimen>
+    <dimen name="personal_icon_right">49.44dp</dimen>
+
+
+    <dimen name="title_textsize">17.28dp</dimen>
+    <dimen name="normal_textsize">15.36dp</dimen>
+    <dimen name="little_textsize">13.44dp</dimen>
+    <dimen name="navigationbar_textsize">10.56dp</dimen>
+
+    <dimen name="px_1">0.48dp</dimen>
+    <dimen name="px_8">3.84dp</dimen>
+    <dimen name="px_22">10.56dp</dimen>
+    <dimen name="px_24">11.52dp</dimen>
+    <dimen name="px_26">12.48dp</dimen>
+    <dimen name="px_28">13.44dp</dimen>
+    <dimen name="px_30">14.4dp</dimen>
+    <dimen name="px_32">15.36dp</dimen>
+    <dimen name="px_36">17.28dp</dimen>
+    <dimen name="px_44">21.12dp</dimen>
+    <dimen name="px_48">23.04dp</dimen>
+    <dimen name="px_60">28.8dp</dimen>
+    <dimen name="px_64">30.72dp</dimen>
+    <dimen name="px_80">38.4dp</dimen>
+    <dimen name="px_88">42.24dp</dimen>
+    <dimen name="px_90">43.2dp</dimen>
+    <dimen name="px_120">57.6dp</dimen>
+    <dimen name="px_176">84.48dp</dimen>
+    <dimen name="px_196">94.08dp</dimen>
+    <dimen name="px_208">99.84dp</dimen>
+    <dimen name="px_240">115.2dp</dimen>
+    <dimen name="px_264">126.72dp</dimen>
+    <dimen name="px_338">162.24dp</dimen>
+    <dimen name="px_386">185.28dp</dimen>
+    <dimen name="px_702">336.96dp</dimen>
+
+
+</resources>

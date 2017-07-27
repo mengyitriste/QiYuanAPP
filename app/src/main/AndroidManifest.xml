@@ -14,24 +14,21 @@
         <activity android:name=".business.admincompany.TestActivity" />
         <activity android:name=".business.adminpark.TeatActivity" />
         <activity android:name=".business.joincompany.ApplyJoinActivity"/>
-
         <activity android:name=".business.joincompany.ChooseParkActivity" />
         <activity android:name=".business.joincompany.ChooseCompanyActivity" />
-        <activity android:name=".business.pass.AuthorityActivity">
+        <activity android:name=".business.pass.AuthorityActivity"/>
+        <activity android:name=".business.pass.ChooseDoorActivity"/>
+        <activity android:name=".business.visitor.ApplyInfoActivity">
         <intent-filter>
             <action android:name="android.intent.action.MAIN" />
 
             <category android:name="android.intent.category.LAUNCHER" />
         </intent-filter>
     </activity>
-        <activity android:name=".business.pass.ChooseDoorActivity"/>
-        <activity android:name=".business.visitor.ApplyInfoActivity"/>
         <activity android:name=".business.visitor.SecondApplyActivity" />
         <activity android:name=".business.monitor.MonitorInfoActivity" />
-
         <activity android:name=".business.monitor.ChooseCompanyActivity"/>
         <activity android:name=".business.monitor.ChooseRoomActivity" />
-
         <activity android:name=".business.monitor.ChooseCameraActivity"></activity>
     </application>
 

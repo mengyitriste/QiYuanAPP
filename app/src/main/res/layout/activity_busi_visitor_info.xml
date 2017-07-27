@@ -15,6 +15,7 @@
         android:gravity="center_vertical"
         android:paddingLeft="@dimen/px_48"
         android:text="@string/business_submitted_info"/>
+
     <TextView
         android:layout_width="match_parent"
         android:layout_height="@dimen/px_88"
@@ -24,6 +25,7 @@
         android:gravity="center_vertical"
         android:paddingLeft="@dimen/px_48"
         android:text="无"/>
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="@dimen/px_64"
@@ -50,15 +52,18 @@
             android:textSize="@dimen/px_32" />
 
         <EditText
-        android:id="@+id/et_busi_visitor_name"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="@null"
-        android:paddingLeft="@dimen/px_22"
-        android:text="@string/business_required"
-        android:textColor="@color/light_black"
-        android:textSize="@dimen/px_30" />
+            android:id="@+id/et_busi_visitor_name"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:paddingLeft="@dimen/px_24"
+            android:layout_marginRight="@dimen/px_24"
+            android:layout_weight="1"
+            android:text="@string/business_required"
+            android:textColor="@color/light_black"
+            android:textSize="@dimen/px_30" />
     </LinearLayout>
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="@dimen/px_88"
@@ -77,14 +82,17 @@
 
         <EditText
             android:id="@+id/et_busi_visitor_tel"
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:background="@null"
-            android:paddingLeft="@dimen/px_22"
+            android:paddingLeft="@dimen/px_24"
+            android:layout_marginRight="@dimen/px_24"
+            android:layout_weight="1"
             android:text="@string/business_required"
             android:textColor="@color/light_black"
-            android:textSize="@dimen/px_30" />
+            android:textSize="@dimen/px_30"/>
     </LinearLayout>
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="@dimen/px_88"
@@ -103,41 +111,17 @@
 
         <EditText
             android:id="@+id/et_business_visitor_number"
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:background="@null"
-            android:paddingLeft="@dimen/px_22"
+            android:paddingLeft="@dimen/px_24"
+            android:layout_marginRight="@dimen/px_24"
+            android:layout_weight="1"
             android:text="@string/business_required"
             android:textColor="@color/light_black"
             android:textSize="@dimen/px_30" />
     </LinearLayout>
 
-    <LinearLayout
-    android:layout_width="match_parent"
-    android:layout_height="@dimen/px_88"
-    android:background="@color/white"
-    android:gravity="center_vertical"
-    android:orientation="horizontal"
-    android:layout_marginTop="1dp">
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:paddingLeft="@dimen/px_48"
-        android:text="@string/business_visit_time"
-        android:textColor="@color/black"
-        android:textSize="@dimen/px_32" />
-
-    <EditText
-        android:id="@+id/et_busi_visitor_time"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="@null"
-        android:paddingLeft="@dimen/px_22"
-        android:text="@string/business_required"
-        android:textColor="@color/light_black"
-        android:textSize="@dimen/px_30" />
-    </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="@dimen/px_88"
@@ -145,7 +129,33 @@
         android:gravity="center_vertical"
         android:orientation="horizontal"
         android:layout_marginTop="1dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/px_48"
+            android:text="@string/business_visit_time"
+            android:textColor="@color/black"
+            android:textSize="@dimen/px_32" />
+        <EditText
+            android:id="@+id/et_busi_visitor_time"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:paddingLeft="@dimen/px_24"
+            android:layout_marginRight="@dimen/px_24"
+            android:layout_weight="1"
+            android:text="@string/business_required"
+            android:textColor="@color/light_black"
+            android:textSize="@dimen/px_30" />
+    </LinearLayout>
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/px_88"
+        android:background="@color/white"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:layout_marginTop="1dp">
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -156,24 +166,27 @@
 
         <EditText
             android:id="@+id/et_busi_vistor_plate"
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:background="@null"
-            android:paddingLeft="@dimen/px_22"
+            android:paddingLeft="@dimen/px_24"
+            android:layout_marginRight="@dimen/px_24"
+            android:layout_weight="1"
             android:text="@string/business_plate_required"
             android:textColor="@color/light_black"
             android:textSize="@dimen/px_30" />
     </LinearLayout>
+
     <Button
-        android:id="@+id/btn_busi_vistor_applynext"
-        android:layout_width="@dimen/px_702"
-        android:layout_height="@dimen/px_88"
-        android:layout_gravity="center_horizontal"
-        android:layout_marginTop="@dimen/px_80"
-        android:background="@drawable/button_bg"
-        android:text="@string/business_submit"
-        android:textColor="@color/white"
-        android:textSize="@dimen/px_28"/>
+            android:id="@+id/btn_busi_vistor_applynext"
+            android:layout_width="@dimen/px_702"
+            android:layout_height="@dimen/px_88"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/px_80"
+            android:background="@drawable/button_bg"
+            android:text="@string/business_submit"
+            android:textColor="@color/white"
+            android:textSize="@dimen/px_28"/>
 
 
 

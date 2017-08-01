@@ -35,7 +35,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="end"
-        android:layout_marginRight="@dimen/px_30"
+        android:layout_marginRight="@dimen/px_48"
         android:textColor="@color/dark_gray"
         android:textSize="@dimen/px_30"
         android:text="张三"/>
@@ -60,7 +60,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="end"
-            android:layout_marginRight="@dimen/px_30"
+            android:layout_marginRight="@dimen/px_48"
             android:textColor="@color/dark_gray"
             android:textSize="@dimen/px_30"
             android:text="13214567894"/>
@@ -88,7 +88,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="end"
-            android:layout_marginRight="@dimen/px_30"
+            android:layout_marginRight="@dimen/px_48"
             android:textColor="@color/dark_gray"
             android:textSize="@dimen/px_30"
             android:text="4人"/>
@@ -114,7 +114,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="end"
-            android:layout_marginRight="@dimen/px_30"
+            android:layout_marginRight="@dimen/px_48"
             android:textColor="@color/dark_gray"
             android:textSize="@dimen/px_30"
             android:text="2017-4-25"/>
@@ -139,7 +139,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="end"
-            android:layout_marginRight="@dimen/px_30"
+            android:layout_marginRight="@dimen/px_48"
             android:textColor="@color/dark_gray"
             android:textSize="@dimen/px_30"
             android:text="川B 67890"/>

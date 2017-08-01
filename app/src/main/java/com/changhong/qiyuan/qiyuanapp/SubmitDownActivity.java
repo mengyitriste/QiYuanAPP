@@ -8,8 +8,6 @@ import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.changhong.qiyuan.qiyuanapp.R;
-
 public class SubmitDownActivity extends AppCompatActivity{
     private TextView common_toolbar_textview;
     private ImageView icon_back_toolbar;

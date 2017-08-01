@@ -99,7 +99,8 @@
     <string name="userinfo_parkspace">车位使用查看</string>
     <string name="userinfo_pass">出行权限查看</string>
     <string name="userinfo_monitor">监控权限查看</string>
-    <string name="userinfo_applythings">申请事物管理</string>
+    <string name="userinfo_applythings">申请事务管理</string>
+    <string name="userinfo_approvethings">审批事务管理</string>
     <string name="userinfo_sets">设置</string>
 
 
@@ -145,5 +146,35 @@
     <string name="business_choose_camera">摄像头选择</string>
     <string name="business_choose_enterprise">企业选择</string>
     <string name="business_choose_room">房间选择</string>
+
+    <!--ADD BY HeJie-->
+    <string name="photo">照片</string>
+    <string name="phone">电话</string>
+    <string name="cost">费用</string>
+    <string name="unit_price">单价</string>
+    <string name="total">总计</string>
+    <string name="card_company_name">企业名称</string>
+    <string name="card_companyroom">企业房间</string>
+    <string name="card_balance">卡上余额</string>
+    <string name="card_recharge_amount">充值金额</string>
+    <string name="card_recharge">充值</string>
+    <string name="park_info">当前车位信息</string>
+    <string name="park_platenumber">车牌号码</string>
+    <string name="park_type">车位类型</string>
+    <string name="park_location">具体位置</string>
+    <string name="park_apply_duration">申请时长</string>
+    <string name="apply_time">申请时间</string>
+    <string name="park_use_deadline">使用期限</string>
+    <string name="park_pendinginfo">待审批车位信息</string>
+    <string name="park_approval_status">审批状态</string>
+    <string name="park_approval_business">审批业务</string>
+    <string name="room_door">房间门</string>
+    <string name="message_reminder">消息提醒</string>
+    <string name="reset">重置</string>
+    <string name="clear_cache">清理缓存</string>
+    <string name="help">帮助</string>
+    <string name="about">关于</string>
+    <string name="quit">退出</string>
+
 
 </resources>

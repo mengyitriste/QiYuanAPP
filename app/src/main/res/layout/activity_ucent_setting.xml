@@ -32,6 +32,7 @@
     </RelativeLayout>
 
     <TextView
+        android:id="@+id/tv_ucent_admp_reset"
         android:layout_width="match_parent"
         android:layout_height="@dimen/px_88"
         android:layout_marginTop="@dimen/px_32"
@@ -40,9 +41,10 @@
         android:gravity="center_vertical"
         android:text="@string/reset"
         android:textSize="@dimen/px_32"
-        android:textColor="@color/black"/>
+        android:textColor="@color/black" />
 
     <TextView
+        android:id="@+id/tv_ucent_admp_clearcache"
         android:layout_width="match_parent"
         android:layout_height="@dimen/px_88"
         android:layout_marginTop="1dp"
@@ -102,6 +104,7 @@
     </LinearLayout>
 
     <TextView
+        android:id="@+id/tv_ucent_admp_quit"
         android:layout_width="match_parent"
         android:layout_height="@dimen/px_88"
         android:layout_marginTop="@dimen/px_32"

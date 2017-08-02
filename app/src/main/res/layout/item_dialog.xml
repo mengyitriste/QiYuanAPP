@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:background="@color/background">
+
+    <Button
+        android:id="@+id/bt_ucent_admp_ok"
+        android:layout_width="@dimen/px_702"
+        android:layout_height="@dimen/px_88"
+        android:layout_marginTop="@dimen/px_32"
+        android:background="@drawable/light_red_bg"
+        android:gravity="center"
+        android:text="确定"
+        android:textColor="@color/white"
+        android:textSize="@dimen/px_28"
+        style="?android:attr/borderlessButtonStyle"
+        />
+
+
+    <Button
+        android:id="@+id/bt_ucent_admp_cancel"
+        android:layout_width="@dimen/px_702"
+        android:layout_height="@dimen/px_88"
+        android:layout_marginTop="@dimen/px_32"
+        android:background="@drawable/white_bg"
+        android:gravity="center"
+        android:text="取消"
+        android:textColor="@color/black"
+        android:textSize="@dimen/px_28"
+        android:textStyle="bold"
+        style="?android:attr/borderlessButtonStyle"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/px_32">
+    </LinearLayout>
+
+
+</LinearLayout>

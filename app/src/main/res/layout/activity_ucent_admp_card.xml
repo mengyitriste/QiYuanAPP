@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/background">
+
+    <include layout="@layout/common_toolbar"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/px_208"
+        android:background="@color/white"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/px_32">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginLeft="@dimen/px_48"
+            android:text="@string/photo"
+            android:textColor="@color/black"
+            android:textSize="@dimen/px_32"/>
+        <ImageView
+            android:layout_width="@dimen/px_176"
+            android:layout_height="@dimen/px_176"
+            android:src="@mipmap/ic_common_head"
+            android:layout_marginRight="@dimen/px_24"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/px_88"
+        android:layout_marginTop="1dp"
+        android:background="@color/white"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:paddingLeft="@dimen/px_48"
+            android:textColor="@color/black"
+            android:textSize="@dimen/px_32"
+            android:text="@string/userinfo_username"/>
+
+        <TextView
+            android:id="@+id/tc_ucent_admp_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/px_48"
+            android:gravity="end"
+            android:text="张三"
+            android:textColor="@color/light_black"
+            android:textSize="@dimen/px_30" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/px_88"
+        android:layout_marginTop="1dp"
+        android:background="@color/white"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:paddingLeft="@dimen/px_48"
+            android:text="@string/phone"
+            android:textColor="@color/black"
+            android:textSize="@dimen/px_32" />
+
+        <TextView
+            android:id="@+id/tc_ucent_admp_phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/px_48"
+            android:gravity="end"
+            android:text="183-8888-4321"
+            android:textColor="@color/light_black"
+            android:textSize="@dimen/px_30" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/px_88"
+        android:layout_marginTop="1dp"
+        android:background="@color/white"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:paddingLeft="@dimen/px_48"
+            android:text="@string/card_company_name"
+            android:textColor="@color/black"
+            android:textSize="@dimen/px_32" />
+
+        <TextView
+            android:id="@+id/tc_ucent_admp_company"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/px_48"
+            android:gravity="end"
+            android:text="UXD公司"
+            android:textColor="@color/light_black"
+            android:textSize="@dimen/px_30" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/px_88"
+        android:layout_marginTop="1dp"
+        android:background="@color/white"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:paddingLeft="@dimen/px_48"
+            android:text="@string/card_companyroom"
+            android:textColor="@color/black"
+            android:textSize="@dimen/px_32" />
+
+        <TextView
+            android:id="@+id/tc_ucent_admp_room"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/px_48"
+            android:gravity="end"
+            android:text="A-301"
+            android:textColor="@color/light_black"
+            android:textSize="@dimen/px_30" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/px_88"
+        android:layout_marginTop="@dimen/px_32"
+        android:background="@color/white"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:paddingLeft="@dimen/px_48"
+            android:text="@string/card_balance"
+            android:textColor="@color/black"
+            android:textSize="@dimen/px_32" />
+
+        <TextView
+            android:id="@+id/tc_ucent_admp_balance"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/px_24"
+            android:text="90.00"
+            android:textColor="@color/light_black"
+            android:textSize="@dimen/px_30" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/px_88"
+        android:layout_marginTop="1dp"
+        android:background="@color/white"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:paddingLeft="@dimen/px_48"
+            android:text="@string/card_recharge_amount"
+            android:textColor="@color/black"
+            android:textSize="@dimen/px_32" />
+
+        <TextView
+            android:id="@+id/tc_ucent_admp_recharge"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/px_24"
+            android:text="100.00"
+            android:textColor="@color/black"
+            android:textSize="@dimen/px_30" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_ucent_admp_rechargenext"
+        android:layout_width="@dimen/px_702"
+        android:layout_height="@dimen/px_88"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/px_80"
+        android:background="@drawable/button_bg"
+        android:text="@string/card_recharge"
+        android:textColor="@color/white"
+        android:textSize="@dimen/px_28" />
+
+
+</LinearLayout>

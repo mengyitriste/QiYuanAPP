@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/background">
+
+    <include layout="@layout/common_toolbar"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/px_88"
+        android:layout_marginTop="@dimen/px_32"
+        android:background="@color/white"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/px_48"
+            android:textColor="@color/black"
+            android:textSize="@dimen/px_32"
+            android:text="@string/message_reminder"/>
+        <com.changhong.qiyuan.qiyuanapp.view.UISwitchButton
+            android:id="@+id/ios_swith"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/px_24"
+            android:layout_alignParentRight="true" />
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/px_88"
+        android:layout_marginTop="@dimen/px_32"
+        android:background="@color/white"
+        android:paddingLeft="@dimen/px_48"
+        android:gravity="center_vertical"
+        android:text="@string/reset"
+        android:textSize="@dimen/px_32"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/px_88"
+        android:layout_marginTop="1dp"
+        android:background="@color/white"
+        android:paddingLeft="@dimen/px_48"
+        android:gravity="center_vertical"
+        android:text="@string/clear_cache"
+        android:textSize="@dimen/px_32"
+        android:textColor="@color/black"/>
+
+    <LinearLayout
+        android:id="@+id/llayout_ucent_setting_help"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/px_88"
+        android:layout_marginTop="@dimen/px_32"
+        android:background="@color/white"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:paddingLeft="@dimen/px_48"
+            android:textColor="@color/black"
+            android:textSize="@dimen/px_32"
+            android:text="@string/help"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/px_32"
+            android:src="@mipmap/ic_common_next" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llayout_ucent_setting_about"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/px_88"
+        android:layout_marginTop="1dp"
+        android:background="@color/white"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:paddingLeft="@dimen/px_48"
+            android:textColor="@color/black"
+            android:textSize="@dimen/px_32"
+            android:text="@string/about"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/px_32"
+            android:src="@mipmap/ic_common_next" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/px_88"
+        android:layout_marginTop="@dimen/px_32"
+        android:background="@color/white"
+        android:gravity="center"
+        android:text="@string/quit"
+        android:textSize="@dimen/px_32"
+        android:textColor="@color/black"/>
+
+
+
+
+</LinearLayout>

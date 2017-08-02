@@ -1,0 +1,461 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/background">
+
+        <include layout="@layout/common_toolbar"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/px_64"
+            android:background="@color/background"
+            android:textColor="@color/dark_gray"
+            android:textSize="@dimen/px_24"
+            android:gravity="center_vertical"
+            android:paddingLeft="@dimen/px_48"
+            android:text="@string/park_info"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/px_88"
+            android:background="@color/white"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:paddingLeft="@dimen/px_48"
+                android:textColor="@color/black"
+                android:textSize="@dimen/px_32"
+                android:text="@string/park_platenumber"/>
+            <TextView
+                android:id="@+id/tv_ucent_admp_platenumber"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/px_48"
+                android:gravity="end"
+                android:text="川A66666  川A66667"
+                android:textColor="@color/light_black"
+                android:textSize="@dimen/px_30" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/px_88"
+            android:layout_marginTop="1dp"
+            android:background="@color/white"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:paddingLeft="@dimen/px_48"
+                android:textColor="@color/black"
+                android:textSize="@dimen/px_32"
+                android:text="@string/park_type"/>
+            <TextView
+                android:id="@+id/tv_ucent_admp_parktype"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/px_48"
+                android:gravity="end"
+                android:text="非固定车位"
+                android:textColor="@color/light_black"
+                android:textSize="@dimen/px_30" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/px_64"
+            android:background="@color/background"
+            android:textColor="@color/dark_gray"
+            android:textSize="@dimen/px_24"
+            android:gravity="center_vertical"
+            android:paddingLeft="@dimen/px_48"
+            android:text="@string/park_apply_duration"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/px_88"
+            android:layout_marginTop="1dp"
+            android:background="@color/white"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:paddingLeft="@dimen/px_48"
+                android:textColor="@color/black"
+                android:textSize="@dimen/px_32"
+                android:text="@string/park_apply_duration"/>
+
+            <TextView
+                android:id="@+id/tv_ucent_admp_applyduration"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/px_48"
+                android:gravity="end"
+                android:text="12月"
+                android:textColor="@color/light_black"
+                android:textSize="@dimen/px_30" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/px_88"
+            android:layout_marginTop="1dp"
+            android:background="@color/white"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:paddingLeft="@dimen/px_48"
+                android:textColor="@color/black"
+                android:textSize="@dimen/px_32"
+                android:text="@string/park_use_deadline"/>
+
+            <TextView
+                android:id="@+id/tv_ucent_admp_deadline"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/px_48"
+                android:gravity="end"
+                android:text="2017年6月-2018年6月"
+                android:textColor="@color/light_black"
+                android:textSize="@dimen/px_30" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/px_64"
+            android:background="@color/background"
+            android:gravity="center_vertical"
+            android:paddingLeft="@dimen/px_48"
+            android:text="@string/park_pendinginfo"
+            android:textColor="@color/dark_gray"
+            android:textSize="@dimen/px_24" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/px_88"
+            android:background="@color/white"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:paddingLeft="@dimen/px_48"
+                android:textColor="@color/black"
+                android:textSize="@dimen/px_32"
+                android:text="@string/park_platenumber"/>
+            <TextView
+                android:id="@+id/tv_ucent_admp_pending_platenumber"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/px_48"
+                android:gravity="end"
+                android:text="川A66666  川A66667"
+                android:textColor="@color/light_black"
+                android:textSize="@dimen/px_30" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/px_88"
+            android:layout_marginTop="1dp"
+            android:background="@color/white"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:paddingLeft="@dimen/px_48"
+                android:textColor="@color/black"
+                android:textSize="@dimen/px_32"
+                android:text="@string/park_type"/>
+            <TextView
+                android:id="@+id/tv_ucent_admp_pending_parktype"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/px_48"
+                android:gravity="end"
+                android:text="固定车位 A-103"
+                android:textColor="@color/light_black"
+                android:textSize="@dimen/px_30" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/px_88"
+            android:layout_marginTop="1dp"
+            android:background="@color/white"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:paddingLeft="@dimen/px_48"
+                android:textColor="@color/black"
+                android:textSize="@dimen/px_32"
+                android:text="@string/park_location"/>
+
+            <TextView
+                android:id="@+id/tv_ucent_admp_pending_location"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/px_48"
+                android:gravity="end"
+                android:text="园区A栋-2F东南角"
+                android:textColor="@color/light_black"
+                android:textSize="@dimen/px_30" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/px_88"
+            android:layout_marginTop="1dp"
+            android:background="@color/white"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:paddingLeft="@dimen/px_48"
+                android:text="@string/apply_time"
+                android:textColor="@color/black"
+                android:textSize="@dimen/px_32" />
+
+            <TextView
+                android:id="@+id/tv_ucent_admp_applytime"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/px_48"
+                android:gravity="end"
+                android:text="2017-4-20 22:10"
+                android:textColor="@color/light_black"
+                android:textSize="@dimen/px_30" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/px_64"
+            android:background="@color/background"
+            android:textColor="@color/dark_gray"
+            android:textSize="@dimen/px_24"
+            android:gravity="center_vertical"
+            android:paddingLeft="@dimen/px_48"
+            android:text="@string/park_apply_duration"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/px_88"
+            android:layout_marginTop="1dp"
+            android:background="@color/white"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:paddingLeft="@dimen/px_48"
+                android:textColor="@color/black"
+                android:textSize="@dimen/px_32"
+                android:text="@string/park_apply_duration"/>
+
+            <TextView
+                android:id="@+id/tv_ucent_admp_pending_applyduration"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/px_48"
+                android:gravity="end"
+                android:text="12月"
+                android:textColor="@color/light_black"
+                android:textSize="@dimen/px_30" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/px_88"
+            android:layout_marginTop="1dp"
+            android:background="@color/white"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:paddingLeft="@dimen/px_48"
+                android:textColor="@color/black"
+                android:textSize="@dimen/px_32"
+                android:text="@string/park_use_deadline"/>
+
+            <TextView
+                android:id="@+id/tv_ucent_admp_pending_deadline"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/px_48"
+                android:gravity="end"
+                android:text="2017年6月-2018年6月"
+                android:textColor="@color/light_black"
+                android:textSize="@dimen/px_30" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/px_64"
+            android:background="@color/background"
+            android:textColor="@color/dark_gray"
+            android:textSize="@dimen/px_24"
+            android:gravity="center_vertical"
+            android:paddingLeft="@dimen/px_48"
+            android:text="@string/cost"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/px_88"
+            android:layout_marginTop="1dp"
+            android:background="@color/white"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:paddingLeft="@dimen/px_48"
+                android:textColor="@color/black"
+                android:textSize="@dimen/px_32"
+                android:text="@string/unit_price"/>
+
+            <TextView
+                android:id="@+id/tv_ucent_admp_price"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/px_48"
+                android:gravity="end"
+                android:text="¥ 100/月"
+                android:textColor="@color/light_black"
+                android:textSize="@dimen/px_30" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/px_88"
+            android:layout_marginTop="1dp"
+            android:background="@color/white"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:paddingLeft="@dimen/px_48"
+                android:textColor="@color/black"
+                android:textSize="@dimen/px_32"
+                android:text="@string/total"/>
+
+            <TextView
+                android:id="@+id/tv_ucent_admp_total"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/px_48"
+                android:gravity="end"
+                android:text="¥ 1200"
+                android:textColor="@color/light_red"
+                android:textSize="@dimen/px_30" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/px_64"
+            android:background="@color/background"
+            android:textColor="@color/dark_gray"
+            android:textSize="@dimen/px_24"
+            android:gravity="center_vertical"
+            android:paddingLeft="@dimen/px_48"
+            android:text="@string/park_approval_status"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/px_88"
+            android:layout_marginTop="1dp"
+            android:background="@color/white"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:paddingLeft="@dimen/px_48"
+                android:textColor="@color/black"
+                android:textSize="@dimen/px_32"
+                android:text="@string/park_approval_business"/>
+
+            <TextView
+                android:id="@+id/tv_ucent_admp_business"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/px_48"
+                android:gravity="end"
+                android:text="车行服务申请"
+                android:textColor="@color/light_black"
+                android:textSize="@dimen/px_30" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/px_88"
+            android:layout_marginTop="1dp"
+            android:background="@color/white"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:paddingLeft="@dimen/px_48"
+                android:textColor="@color/black"
+                android:textSize="@dimen/px_32"
+                android:text="@string/park_approval_status"/>
+
+            <TextView
+                android:id="@+id/tv_ucent_admp_status"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/px_48"
+                android:gravity="end"
+                android:text="未审批"
+                android:textColor="@color/light_black"
+                android:textSize="@dimen/px_30" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+</ScrollView>

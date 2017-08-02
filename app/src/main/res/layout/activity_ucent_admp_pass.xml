@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/background">
+
+    <include layout="@layout/common_toolbar"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/px_64"
+        android:background="@color/background"
+        android:gravity="center_vertical"
+        android:paddingLeft="@dimen/px_48"
+        android:text="@string/business_current_authority"
+        android:textColor="@color/dark_gray"
+        android:textSize="@dimen/px_24" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/px_88"
+        android:background="@color/white"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:paddingLeft="@dimen/px_48"
+            android:textColor="@color/black"
+            android:textSize="@dimen/px_32"
+            android:text="@string/room_door"/>
+        <TextView
+            android:id="@+id/tv_ucent_admp_roomdoor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/px_48"
+            android:gravity="end"
+            android:text="门101、门102、门103"
+            android:textColor="@color/light_black"
+            android:textSize="@dimen/px_30" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/px_64"
+        android:background="@color/background"
+        android:gravity="center_vertical"
+        android:paddingLeft="@dimen/px_48"
+        android:text="@string/business_pending_authority"
+        android:textColor="@color/dark_gray"
+        android:textSize="@dimen/px_24" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/px_88"
+        android:background="@color/white"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:paddingLeft="@dimen/px_48"
+            android:textColor="@color/black"
+            android:textSize="@dimen/px_32"
+            android:text="@string/room_door"/>
+        <TextView
+            android:id="@+id/tv_ucent_admp_pending_roomdoor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/px_48"
+            android:gravity="end"
+            android:text="门104"
+            android:textColor="@color/light_black"
+            android:textSize="@dimen/px_30" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/px_88"
+        android:background="@color/white"
+        android:layout_marginTop="1dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:paddingLeft="@dimen/px_48"
+            android:textColor="@color/black"
+            android:textSize="@dimen/px_32"
+            android:text="@string/apply_time"/>
+        <TextView
+            android:id="@+id/tv_ucent_admp_pending_time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/px_48"
+            android:gravity="end"
+            android:text="2017-4-20 22:10"
+            android:textColor="@color/light_black"
+            android:textSize="@dimen/px_30" />
+    </LinearLayout>
+
+</LinearLayout>

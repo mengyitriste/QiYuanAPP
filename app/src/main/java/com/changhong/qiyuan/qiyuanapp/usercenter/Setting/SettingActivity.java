@@ -2,6 +2,7 @@ package com.changhong.qiyuan.qiyuanapp.usercenter.Setting;
 
 import android.app.Dialog;
 import android.content.Context;
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
@@ -13,6 +14,7 @@ import android.view.WindowManager;
 import android.widget.Button;
 import android.widget.CompoundButton;
 import android.widget.CompoundButton.OnCheckedChangeListener;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import com.changhong.qiyuan.qiyuanapp.R;
@@ -27,9 +29,11 @@ public class SettingActivity extends AppCompatActivity implements View.OnClickLi
     private TextView tv_reset;
     private TextView tv_clearcache;
     private TextView tv_quit;
+    private LinearLayout llayout_help;
+    private LinearLayout llayout_about;
 
 
-    Context context;
+    private Context context;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -37,6 +41,23 @@ public class SettingActivity extends AppCompatActivity implements View.OnClickLi
         setContentView(R.layout.activity_ucent_setting);
         context = this;
         initView();
+        llayout_help=(LinearLayout)findViewById(R.id.llayout_ucent_setting_help);
+        llayout_help.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent=new Intent(SettingActivity.this,HelpActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        llayout_about=(LinearLayout)findViewById(R.id.llayout_ucent_setting_about);
+        llayout_about.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent=new Intent(SettingActivity.this,AboutActivity.class);
+                startActivity(intent);
+            }
+        });
 
         tv_reset=(TextView)findViewById(R.id.tv_ucent_admp_reset);
         tv_reset.setOnClickListener(new View.OnClickListener() {

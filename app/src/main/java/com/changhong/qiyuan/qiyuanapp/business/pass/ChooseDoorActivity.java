@@ -12,10 +12,11 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
-import java.util.ArrayList;
 
 import com.changhong.qiyuan.qiyuanapp.R;
 import com.changhong.qiyuan.qiyuanapp.SubmitDownActivity;
+
+import java.util.ArrayList;
 
 
 public class ChooseDoorActivity extends AppCompatActivity {
@@ -26,7 +27,7 @@ public class ChooseDoorActivity extends AppCompatActivity {
     private Button button;
     private ImageView icon_choosen;
     private myListAdapter adapter;
-    static ArrayList<String> door = new ArrayList<String>();
+    static ArrayList<String> door = new ArrayList<>();
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

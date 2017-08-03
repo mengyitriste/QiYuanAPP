@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:orientation="vertical">
+
+    <include layout="@layout/common_toolbar"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/px_32"
+        android:layout_marginLeft="@dimen/px_48"
+        android:text="功能一：XXXXXXXXXXX"
+        android:textSize="@dimen/px_24"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/px_48"
+        android:text="功能二：xxxxxxxxxxxxxx"
+        android:textSize="@dimen/px_24"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/px_48"
+        android:text="功能一：XXXXXXXXXXX"
+        android:textSize="@dimen/px_24"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/px_48"
+        android:text="功能二：xxxxxxxxxxxxxx"
+        android:textSize="@dimen/px_24"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/px_48"
+        android:text="功能一：
+XXXXXXXXXXXxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxx"
+        android:textSize="@dimen/px_24"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/px_48"
+        android:text="功能二：xxxxxxxxxxxxxx"
+        android:textSize="@dimen/px_24"
+        android:textColor="@color/black"/>
+
+
+</LinearLayout>

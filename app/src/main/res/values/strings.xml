@@ -175,6 +175,9 @@
     <string name="help">帮助</string>
     <string name="about">关于</string>
     <string name="quit">退出</string>
+    <string name="go_socre">去评分</string>
+    <string name="function_introduction">功能介绍</string>
+    <string name="common_problems">常见问题</string>
 
 
 </resources>

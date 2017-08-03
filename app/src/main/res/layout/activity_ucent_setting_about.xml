@@ -1,6 +1,79 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:orientation="vertical">
+
+    <include layout="@layout/common_toolbar"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/px_296"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="@dimen/px_120"
+            android:layout_height="@dimen/px_120"
+            android:layout_marginTop="@dimen/px_80"
+            android:layout_gravity="center_horizontal"
+            android:src="@mipmap/ic_common_head"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/px_18"
+            android:textSize="@dimen/px_32"
+            android:textColor="@color/light_black"
+            android:text="@string/business_qiyuanpark"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llayout_ucent_setting_goscore"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/px_88"
+        android:layout_marginTop="@dimen/px_32"
+        android:background="@color/white"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:paddingLeft="@dimen/px_48"
+            android:textColor="@color/black"
+            android:textSize="@dimen/px_32"
+            android:text="@string/go_socre"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/px_32"
+            android:src="@mipmap/ic_common_next" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llayout_ucent_setting_function"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/px_88"
+        android:layout_marginTop="1dp"
+        android:background="@color/white"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:paddingLeft="@dimen/px_48"
+            android:textColor="@color/black"
+            android:textSize="@dimen/px_32"
+            android:text="@string/function_introduction"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/px_32"
+            android:src="@mipmap/ic_common_next" />
+    </LinearLayout>
 
 </LinearLayout>

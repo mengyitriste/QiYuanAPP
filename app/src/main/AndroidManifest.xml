@@ -10,7 +10,7 @@
         android:theme="@style/AppTheme">
         <activity android:name=".MainActivity" />
         <activity android:name=".SubmitDownActivity" />
-        <activity android:name=".usercenter.Setting.SettingActivity">
+        <activity android:name=".usercenter.Setting.SettingActivity" >
         <intent-filter>
             <action android:name="android.intent.action.MAIN" />
 
@@ -24,7 +24,7 @@
         <activity android:name=".business.joincompany.ChooseCompanyActivity" />
         <activity android:name=".business.pass.AuthorityActivity" />
         <activity android:name=".business.pass.ChooseDoorActivity" />
-        <activity android:name=".business.visitor.ApplyInfoActivity"/>
+        <activity android:name=".business.visitor.ApplyInfoActivity" />
         <activity android:name=".business.visitor.SecondApplyActivity" />
         <activity android:name=".business.monitor.MonitorInfoActivity" />
         <activity android:name=".business.monitor.ChooseCompanyActivity" />
@@ -33,8 +33,10 @@
         <activity android:name=".usercenter.adminpark.CardActivity" />
         <activity android:name=".usercenter.adminpark.FixedCarActivity" />
         <activity android:name=".usercenter.adminpark.UnfixedCarActivity" />
-
-        <activity android:name=".usercenter.adminpark.PassActivity"></activity>
+        <activity android:name=".usercenter.adminpark.PassActivity" />
+        <activity android:name=".usercenter.Setting.AboutActivity" />
+        <activity android:name=".usercenter.Setting.HelpActivity"/>
+        <activity android:name=".usercenter.Setting.FunctionActivity"></activity>
     </application>
 
 </manifest>

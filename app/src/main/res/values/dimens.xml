@@ -24,6 +24,7 @@
 
     <dimen name="px_1">0.48dp</dimen>
     <dimen name="px_8">3.84dp</dimen>
+    <dimen name="px_18">8.64dp</dimen>
     <dimen name="px_22">10.56dp</dimen>
     <dimen name="px_24">11.52dp</dimen>
     <dimen name="px_26">12.48dp</dimen>
@@ -44,6 +45,7 @@
     <dimen name="px_208">99.84dp</dimen>
     <dimen name="px_240">115.2dp</dimen>
     <dimen name="px_264">126.72dp</dimen>
+    <dimen name="px_296">142.08dp</dimen>
     <dimen name="px_338">162.24dp</dimen>
     <dimen name="px_386">185.28dp</dimen>
     <dimen name="px_702">336.96dp</dimen>

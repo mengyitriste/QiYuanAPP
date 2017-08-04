@@ -31,6 +31,7 @@ public class HelpActivity extends AppCompatActivity {
     }
 
     private void initData() {
+        problem.clear();
         problem.add("问题一");
         problem.add("问题二");
         problem.add("问题三");

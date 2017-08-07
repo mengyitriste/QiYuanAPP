@@ -16,7 +16,7 @@
             android:layout_height="@dimen/px_120"
             android:layout_marginTop="@dimen/px_80"
             android:layout_gravity="center_horizontal"
-            android:src="@mipmap/ic_common_head"/>
+            android:src="@mipmap/icon_logo"/>
 
         <TextView
             android:layout_width="wrap_content"

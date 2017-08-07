@@ -228,7 +228,7 @@
                 android:layout_height="30dp"
                 android:layout_centerVertical="true"
                 android:layout_marginLeft="@dimen/px_24"
-                android:src="@mipmap/ic_usercenter_things" />
+                android:src="@mipmap/ic_usercenter_appr" />
 
             <TextView
                 android:layout_width="wrap_content"

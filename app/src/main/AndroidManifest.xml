@@ -10,13 +10,13 @@
         android:theme="@style/AppTheme">
         <activity android:name=".MainActivity" />
         <activity android:name=".SubmitDownActivity" />
-        <activity android:name=".usercenter.Setting.SettingActivity" >
-        <intent-filter>
-            <action android:name="android.intent.action.MAIN" />
+        <activity android:name=".usercenter.Setting.SettingActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
 
-            <category android:name="android.intent.category.LAUNCHER" />
-        </intent-filter>
-    </activity>
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
         <activity android:name=".business.admincompany.TestActivity" />
         <activity android:name=".business.adminpark.TeatActivity" />
         <activity android:name=".business.joincompany.ApplyJoinActivity" />
@@ -35,8 +35,13 @@
         <activity android:name=".usercenter.adminpark.UnfixedCarActivity" />
         <activity android:name=".usercenter.adminpark.PassActivity" />
         <activity android:name=".usercenter.Setting.AboutActivity" />
-        <activity android:name=".usercenter.Setting.HelpActivity"/>
-        <activity android:name=".usercenter.Setting.FunctionActivity"></activity>
+        <activity android:name=".usercenter.Setting.HelpActivity" />
+        <activity android:name=".usercenter.Setting.FunctionActivity" />
+        <activity android:name=".business.adminpark.maintain.RepairInfoActivity" />
+        <activity android:name=".business.adminpark.maintain.RepairDetailActivity" />
+        <activity android:name=".business.adminpark.maintain.RepairAccpetActivity" />
+        <activity android:name=".business.adminpark.maintain.RepairReasonsActivity" />
+        <activity android:name=".business.adminpark.maintain.RepairRefuseActivity"></activity>
     </application>
 
 </manifest>

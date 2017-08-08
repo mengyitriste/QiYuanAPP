@@ -146,6 +146,15 @@
     <string name="business_choose_camera">摄像头选择</string>
     <string name="business_choose_enterprise">企业选择</string>
     <string name="business_choose_room">房间选择</string>
+    <string name="business_repair_theme">报修主题</string>
+    <string name="business_repair_content">报修内容</string>
+    <string name="business_accpet_btn">接受受理</string>
+    <string name="business_refuse_btn">拒绝受理</string>
+    <string name="business_approval_status">审批状态</string>
+    <string name="business_approval_business">审批业务</string>
+    <string name="business_refuse_reasons">审批未通过原因</string>
+    <string name="business_other_reasons">其他原因</string>
+
 
     <!--ADD BY HeJie-->
     <string name="photo">照片</string>
@@ -178,6 +187,11 @@
     <string name="go_socre">去评分</string>
     <string name="function_introduction">功能介绍</string>
     <string name="common_problems">常见问题</string>
+    <string name="confirm_btn">确认</string>
+
+    <string name="unapproved">未审批</string>
+    <string name="passed">已通过</string>
+    <string name="not_entertained">不受理</string>
 
 
 </resources>

@@ -23,7 +23,13 @@
     <dimen name="navigationbar_textsize">10.56dp</dimen>
 
     <dimen name="px_1">0.48dp</dimen>
+    <dimen name="px_2">0.96dp</dimen>
+    <dimen name="px_6">2.88dp</dimen>
     <dimen name="px_8">3.84dp</dimen>
+    <dimen name="px_10">4.8dp</dimen>
+    <dimen name="px_12">5.76dp</dimen>
+    <dimen name="px_14">6.72dp</dimen>
+    <dimen name="px_16">7.68dp</dimen>
     <dimen name="px_18">8.64dp</dimen>
     <dimen name="px_22">10.56dp</dimen>
     <dimen name="px_24">11.52dp</dimen>
@@ -32,15 +38,22 @@
     <dimen name="px_30">14.4dp</dimen>
     <dimen name="px_32">15.36dp</dimen>
     <dimen name="px_36">17.28dp</dimen>
+    <dimen name="px_40">19.2dp</dimen>
     <dimen name="px_44">21.12dp</dimen>
     <dimen name="px_48">23.04dp</dimen>
+    <dimen name="px_56">26.88dp</dimen>
     <dimen name="px_60">28.8dp</dimen>
     <dimen name="px_64">30.72dp</dimen>
     <dimen name="px_80">38.4dp</dimen>
     <dimen name="px_88">42.24dp</dimen>
     <dimen name="px_90">43.2dp</dimen>
     <dimen name="px_120">57.6dp</dimen>
+    <dimen name="px_132">63.36dp</dimen>
+    <dimen name="px_136">65.28dp</dimen>
+    <dimen name="px_160">76.8dp</dimen>
+    <dimen name="px_162">77.76dp</dimen>
     <dimen name="px_176">84.48dp</dimen>
+    <dimen name="px_184">88.32dp</dimen>
     <dimen name="px_196">94.08dp</dimen>
     <dimen name="px_208">99.84dp</dimen>
     <dimen name="px_240">115.2dp</dimen>

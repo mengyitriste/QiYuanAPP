@@ -225,11 +225,13 @@
                 android:layout_height="@dimen/px_196"
                 android:src="@mipmap/ic_common_head"
                 android:layout_marginLeft="@dimen/px_48"/>
+
             <ImageView
                 android:layout_width="@dimen/px_196"
                 android:layout_height="@dimen/px_196"
                 android:src="@mipmap/ic_common_head"
                 android:layout_centerHorizontal="true"/>
+
             <ImageView
                 android:layout_width="@dimen/px_196"
                 android:layout_height="@dimen/px_196"
@@ -326,21 +328,24 @@
             <View
                 android:layout_width="match_parent"
                 android:layout_height="@dimen/px_24"/>
-
         </RelativeLayout>
 
         <LinearLayout
+            android:id="@+id/llayout_item_busi_admp_repir_add"
             android:layout_width="match_parent"
             android:layout_height="@dimen/px_136"
             android:orientation="horizontal"
-            android:gravity="center_vertical">
-            <ImageView
+            android:gravity="center_vertical"
+            android:visibility="gone">
+            <ImageButton
+                android:id="@+id/ibn_busi_admp_repair_photo"
                 android:layout_width="@dimen/px_88"
                 android:layout_height="@dimen/px_88"
                 android:layout_marginLeft="@dimen/px_24"
                 android:src="@mipmap/ic_discuss_photo"
                 android:background="@color/gray"/>
-            <ImageView
+            <ImageButton
+                android:id="@+id/ibn_busi_admp_repair_camera"
                 android:layout_width="@dimen/px_88"
                 android:layout_height="@dimen/px_88"
                 android:layout_marginLeft="@dimen/px_24"

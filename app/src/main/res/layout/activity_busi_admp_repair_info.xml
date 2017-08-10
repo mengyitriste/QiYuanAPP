@@ -16,6 +16,8 @@
         android:orientation="horizontal">
 
         <EditText
+            android:focusable="false"
+            android:focusableInTouchMode="false"
             android:id="@+id/et_busi_joinc_parks"
             android:layout_width="0dp"
             android:layout_height="wrap_content"

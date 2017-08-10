@@ -59,7 +59,7 @@
                 android:text="@string/userinfo_username"/>
 
             <TextView
-                android:id="@+id/tv_busi_admp_repair_name"
+                android:id="@+id/tv_busi_admp_complaint_name"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginRight="@dimen/px_48"
@@ -88,7 +88,7 @@
                 android:textSize="@dimen/px_32" />
 
             <TextView
-                android:id="@+id/tv_busi_admp_repair_phone"
+                android:id="@+id/tv_busi_admp_complaint_phone"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginRight="@dimen/px_48"
@@ -117,7 +117,7 @@
                 android:textSize="@dimen/px_32" />
 
             <TextView
-                android:id="@+id/tv_busi_admp_repair_company"
+                android:id="@+id/tv_busi_admp_complaint_company"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginRight="@dimen/px_48"
@@ -146,7 +146,7 @@
                 android:textSize="@dimen/px_32" />
 
             <TextView
-                android:id="@+id/tv_busi_admp_repair_room"
+                android:id="@+id/tv_busi_admp_complaint_room"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginRight="@dimen/px_48"
@@ -163,12 +163,12 @@
             android:background="@color/background"
             android:gravity="center_vertical"
             android:paddingLeft="@dimen/px_48"
-            android:text="@string/business_repair_theme"
+            android:text="@string/business_complaint_theme"
             android:textSize="@dimen/px_24"
             android:textColor="@color/dark_gray"/>
 
         <TextView
-            android:id="@+id/tv_busi_admp_repair_theme"
+            android:id="@+id/tv_busi_admp_complaint_theme"
             android:layout_width="match_parent"
             android:layout_height="@dimen/px_88"
             android:background="@color/white"
@@ -185,7 +185,7 @@
             android:background="@color/background"
             android:gravity="center_vertical"
             android:paddingLeft="@dimen/px_48"
-            android:text="@string/business_repair_content"
+            android:text="@string/business_complaint_content"
             android:textSize="@dimen/px_24"
             android:textColor="@color/dark_gray"/>
         <View
@@ -194,7 +194,7 @@
             android:background="@color/white"/>
 
         <TextView
-            android:id="@+id/tv_busi_admp_repair_content"
+            android:id="@+id/tv_busi_admp_complaint_content"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@color/white"
@@ -208,9 +208,9 @@
 园区A座4楼，楼道垃圾问题，办公室灰尘较重。希望园区加强管理。"/>
 
         <View
-        android:layout_width="wrap_content"
-        android:layout_height="@dimen/px_48"
-        android:background="@color/white"/>
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/px_48"
+            android:background="@color/white"/>
 
         <RelativeLayout
             android:layout_width="match_parent"
@@ -257,7 +257,7 @@
                 android:layout_height="match_parent"
                 android:orientation="vertical"
                 android:layout_marginLeft="@dimen/px_16">
-                
+
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -298,21 +298,20 @@
         </LinearLayout>
 
         <RelativeLayout
-            android:id="@+id/rlayout_busi_admp_repair_edit"
+            android:id="@+id/rlayout_busi_admp_complaint_edit"
             android:visibility="visible"
             android:layout_width="match_parent"
             android:layout_height="@dimen/px_40"
             android:layout_marginTop="@dimen/px_24"
             android:background="@color/white">
             <EditText
-                android:id="@+id/et_busi_joinc_parks"
                 android:layout_height="match_parent"
                 android:layout_width="match_parent"
                 android:background="@null"
                 android:layout_alignParentLeft="true"
                 android:layout_marginLeft="@dimen/px_24" />
             <ImageButton
-                android:id="@+id/ibn_busi_admp_repair_add"
+                android:id="@+id/ibn_busi_admp_complaint_add"
                 android:layout_width="@dimen/px_44"
                 android:layout_height="@dimen/px_44"
                 android:layout_marginRight="@dimen/px_48"
@@ -320,11 +319,11 @@
                 android:background="@color/white"
                 android:src="@mipmap/ic_discuss_add" />
             <ImageButton
-                android:id="@+id/ibn_busi_admp_repair_imoj"
+                android:id="@+id/ibn_busi_admp_complaint_imoj"
                 android:layout_width="@dimen/px_44"
                 android:layout_height="@dimen/px_44"
                 android:background="@color/white"
-                android:layout_toLeftOf="@+id/ibn_busi_admp_repair_add"
+                android:layout_toLeftOf="@+id/ibn_busi_admp_complaint_add"
                 android:layout_marginLeft="@dimen/px_24"
                 android:src="@mipmap/ic_discuss_imoj" />
             <View
@@ -333,21 +332,21 @@
         </RelativeLayout>
 
         <LinearLayout
-            android:id="@+id/llayout_item_busi_admp_repair_add"
+            android:id="@+id/llayout_busi_admp_complaint_add"
             android:layout_width="match_parent"
             android:layout_height="@dimen/px_136"
             android:orientation="horizontal"
             android:gravity="center_vertical"
             android:visibility="gone">
             <ImageButton
-                android:id="@+id/ibn_busi_admp_repair_photo"
+                android:id="@+id/ibn_busi_admp_complaint_photo"
                 android:layout_width="@dimen/px_88"
                 android:layout_height="@dimen/px_88"
                 android:layout_marginLeft="@dimen/px_24"
                 android:src="@mipmap/ic_discuss_photo"
                 android:background="@color/gray"/>
             <ImageButton
-                android:id="@+id/ibn_busi_admp_repair_camera"
+                android:id="@+id/ibn_busi_admp_complaint_camera"
                 android:layout_width="@dimen/px_88"
                 android:layout_height="@dimen/px_88"
                 android:layout_marginLeft="@dimen/px_24"
@@ -357,7 +356,7 @@
         </LinearLayout>
 
         <LinearLayout
-            android:id="@+id/llayout_item_busi_admp_repair_accpet"
+            android:id="@+id/llayout_busi_admp_complaint_accpet"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
@@ -389,7 +388,7 @@
                     android:text="@string/business_approval_business"/>
 
                 <TextView
-                    android:id="@+id/tv_busi_admp_repair_busiaccpet"
+                    android:id="@+id/tv_busi_admp_complaint_busiaccpet"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginRight="@dimen/px_48"
@@ -418,7 +417,7 @@
                     android:textSize="@dimen/px_32" />
 
                 <TextView
-                    android:id="@+id/tv_busi_admp_repair_statusaccpet"
+                    android:id="@+id/tv_busi_admp_complaint_statusaccpet"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginRight="@dimen/px_48"
@@ -434,7 +433,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
-            android:id="@+id/llayout_item_busi_admp_repair_refuse"
+            android:id="@+id/llayout_busi_admp_complaint_refuse"
             android:visibility="gone">
             <LinearLayout
                 android:layout_width="match_parent"
@@ -453,7 +452,7 @@
                     android:text="@string/business_approval_business"/>
 
                 <TextView
-                    android:id="@+id/tv_busi_admp_repair_busirefuse"
+                    android:id="@+id/tv_busi_admp_complaint_busirefuse"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginRight="@dimen/px_48"
@@ -482,7 +481,7 @@
                     android:textSize="@dimen/px_32" />
 
                 <TextView
-                    android:id="@+id/tv_busi_admp_repair_statusrefuse"
+                    android:id="@+id/tv_busi_admp_complaint_statusrefuse"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginRight="@dimen/px_48"
@@ -568,7 +567,7 @@
                 android:background="@color/white"/>
 
             <TextView
-                android:id="@+id/tv_busi_admp_repair_reason"
+                android:id="@+id/tv_busi_admp_complaint_reason"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@color/white"
@@ -587,12 +586,12 @@
         </LinearLayout>
 
         <LinearLayout
-            android:id="@+id/llayout_item_busi_admp_button"
+            android:id="@+id/llayout_busi_admp_button"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical">
             <Button
-                android:id="@+id/btn_busi_admp_repair_accpet"
+                android:id="@+id/btn_busi_admp_complaint_accpet"
                 android:layout_width="@dimen/px_702"
                 android:layout_height="@dimen/px_88"
                 android:layout_gravity="center_horizontal"
@@ -602,7 +601,7 @@
                 android:textColor="@color/white" />
 
             <Button
-                android:id="@+id/btn_busi_admp_repair_refuse"
+                android:id="@+id/btn_busi_admp_complaint_refuse"
                 android:layout_width="@dimen/px_702"
                 android:layout_height="@dimen/px_88"
                 android:layout_gravity="center_horizontal"
@@ -617,3 +616,4 @@
     </LinearLayout>
 
 </ScrollView>
+

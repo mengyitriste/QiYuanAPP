@@ -5,11 +5,11 @@ import android.os.Bundle;
 
 import com.changhong.qiyuan.qiyuanapp.R;
 
-public class RepairReasonsActivity extends AppCompatActivity {
+public class ReasonsActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_busi_admp_repair_reasons);
+        setContentView(R.layout.activity_busi_admp_reasons);
     }
 }

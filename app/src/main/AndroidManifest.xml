@@ -10,8 +10,7 @@
         android:theme="@style/AppTheme">
         <activity android:name=".MainActivity" />
         <activity android:name=".SubmitDownActivity" />
-        <activity android:name=".usercenter.Setting.SettingActivity"/>
-
+        <activity android:name=".usercenter.Setting.SettingActivity" />
         <activity android:name=".business.admincompany.TestActivity" />
         <activity android:name=".business.adminpark.TeatActivity" />
         <activity android:name=".business.joincompany.ApplyJoinActivity" />
@@ -32,16 +31,18 @@
         <activity android:name=".usercenter.Setting.AboutActivity" />
         <activity android:name=".usercenter.Setting.HelpActivity" />
         <activity android:name=".usercenter.Setting.FunctionActivity" />
-        <activity android:name=".business.adminpark.maintain.RepairInfoActivity">
+        <activity android:name=".business.adminpark.maintain.RepairInfoActivity"/>
+
+        <activity android:name=".business.adminpark.maintain.RepairDetailActivity" />
+        <activity android:name=".business.adminpark.maintain.ReasonsActivity" />
+        <activity android:name=".business.adminpark.maintain.ComplaintInfoActivity" >
         <intent-filter>
             <action android:name="android.intent.action.MAIN" />
 
             <category android:name="android.intent.category.LAUNCHER" />
         </intent-filter>
     </activity>
-        <activity android:name=".business.adminpark.maintain.RepairDetailActivity" />
-        <activity android:name=".business.adminpark.maintain.RepairReasonsActivity" >
-        </activity>
+        <activity android:name=".business.adminpark.maintain.ComplaintDetailActivity"></activity>
     </application>
 
 </manifest>

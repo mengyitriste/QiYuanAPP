@@ -148,8 +148,10 @@
     <string name="business_choose_room">房间选择</string>
     <string name="business_repair_theme">报修主题</string>
     <string name="business_repair_content">报修内容</string>
-    <string name="business_accpet_btn">接受受理</string>
-    <string name="business_refuse_btn">拒绝受理</string>
+    <string name="business_complaint_theme">投诉主题</string>
+    <string name="business_complaint_content">投诉内容</string>
+    <string name="business_accpet_btn">投诉受理</string>
+    <string name="business_refuse_btn">不予受理</string>
     <string name="business_approval_status">审批状态</string>
     <string name="business_approval_business">审批业务</string>
     <string name="business_refuse_reasons">审批未通过原因</string>

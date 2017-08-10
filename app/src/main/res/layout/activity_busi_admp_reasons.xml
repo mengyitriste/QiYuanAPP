@@ -123,7 +123,7 @@
         android:background="@color/white"/>
 
     <EditText
-        android:id="@+id/et_busi_admp_repair_reason"
+        android:id="@+id/et_busi_admp_reason"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@color/white"
@@ -140,7 +140,7 @@
         android:background="@color/white"/>
 
     <Button
-        android:id="@+id/btn_busi_joinc_applynext"
+        android:id="@+id/btn_busi_admp_comfirm"
         android:layout_width="@dimen/px_702"
         android:layout_height="@dimen/px_88"
         android:layout_gravity="center_horizontal"

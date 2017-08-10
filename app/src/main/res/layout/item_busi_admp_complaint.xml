@@ -6,7 +6,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <LinearLayout
-        android:id="@+id/llayout_item_busi_admp_compaint"
+        android:id="@+id/llayout_item_busi_admp_complaint"
         android:layout_marginTop="1dp"
         android:layout_width="match_parent"
         android:layout_height="@dimen/px_160"
@@ -18,7 +18,7 @@
             android:layout_height="@dimen/px_160">
 
             <ImageView
-                android:id="@+id/iv_item_busi_admp_compaint_admin"
+                android:id="@+id/iv_item_busi_admp_complaint_admin"
                 android:layout_width="@dimen/px_136"
                 android:layout_height="@dimen/px_136"
                 android:layout_marginLeft="@dimen/px_24"
@@ -45,7 +45,7 @@
                     app:srcCompat="@mipmap/ic_ucenter_per_complaint"/>
 
                 <TextView
-                    android:id="@+id/tv_item_busi_admp_compaint_name"
+                    android:id="@+id/tv_item_busi_admp_complaint_name"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="@dimen/px_24"
@@ -65,7 +65,7 @@
                 android:layout_marginTop="@dimen/px_6">
 
                 <TextView
-                    android:id="@+id/tv_item_busi_admp_compaint_phone"
+                    android:id="@+id/tv_item_busi_admp_complaint_phone"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="183-8888-4321"
@@ -79,7 +79,7 @@
                 android:layout_marginTop="@dimen/px_12">
 
                 <TextView
-                    android:id="@+id/tv_item_busi_admp_compaint_time"
+                    android:id="@+id/tv_item_busi_admp_complaint_time"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginRight="@dimen/px_10"
@@ -102,7 +102,7 @@
             android:layout_height="@dimen/px_160"
             android:gravity="center_vertical">
             <TextView
-                android:id="@+id/tv_item_busi_admp_compaint_passornot"
+                android:id="@+id/tv_item_busi_admp_complaint_passornot"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="@dimen/px_36"

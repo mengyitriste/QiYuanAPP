@@ -29,7 +29,7 @@
             android:textSize="@dimen/px_32" />
 
         <ImageButton
-            android:id="@+id/ibn_busi_admp_repair_search"
+            android:id="@+id/ibn_busi_admp_complaint_search"
             android:layout_width="@dimen/px_44"
             android:layout_height="@dimen/px_44"
             android:layout_marginRight="@dimen/px_24"
@@ -40,7 +40,7 @@
     </LinearLayout>
 
     <android.support.v7.widget.RecyclerView
-        android:id="@+id/rv_busi_admp_repair_infos"
+        android:id="@+id/rv_busi_admp_complaint_infos"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
 
